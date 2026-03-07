@@ -1,39 +1,46 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Socialisha | Digital Agency</title>
-    
+    <title>B.Social | Digital Agency</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top py-3">
-        <div class="container">
-            
-            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#socialishaNav">
-                <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container position-relative">
+
+            <button class="navbar-toggler border-0 shadow-none custom-toggler collapsed" type="button"
+                data-bs-toggle="collapse" data-bs-target="#socialishaNav">
+                <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </button>
 
-            <div class="collapse navbar-collapse flex-grow-1" id="socialishaNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link fw-medium px-3" href="#">Services</a></li>
-                    <li class="nav-item"><a class="nav-link fw-medium px-3" href="#">Our Team</a></li>
-                    <li class="nav-item"><a class="nav-link fw-medium px-3" href="#">Contact</a></li>
+            <a class="navbar-brand mx-lg-auto order-1 order-lg-2" href="#">
+                B.Social<span>.</span>
+            </a>
+
+            <div class="collapse navbar-collapse order-3 order-lg-1" id="socialishaNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Our Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
             </div>
 
-            <a class="navbar-brand mx-lg-auto fw-black ls-2 fs-3" href="#">
-                SOCIALISHA<span class="text-danger">.</span>
-            </a>
-
-            <div class="d-flex flex-grow-1 justify-content-end d-none d-sm-flex">
-                <a href="#" class="btn btn-dark rounded-pill px-4 py-2 fw-semibold btn-sm-custom">
-                    Book a Free Discovery Call
-                </a>
+            <div class="d-flex order-2 order-lg-3 flex-grow-1 justify-content-end">
+                <a href="#" class="btn cta-btn d-none d-sm-inline-block">Book a Free Discovery Call</a>
             </div>
 
         </div>
@@ -42,4 +49,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
